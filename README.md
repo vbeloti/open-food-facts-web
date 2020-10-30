@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# Open Food Facts Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Open-food-facts]
+    - [Resumo](#resumo)
+    - [Link Demonstração](#link-demonstracao-api)
+    - [Fotos](#demonstracao-em-fotos)
+    - [Pré Requisitos](#pre-requisitos)
+    - [Instalando](#instalando)
+    - [Executando a aplicação](#executando-a-aplicacao)
+    - [Recursos](#recursos)
 
-## Available Scripts
+## Resumo
 
-In the project directory, you can run:
+Esta é uma aplicação construída com Typescript + React.js, foi desenvolvida baseado na API <a href="https://github.com/vbeloti/open-food-facts-api">Open Food Facts API</a>.
 
-### `yarn start`
+## Link Demonstração
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a href="https://open-food-facts.vercel.app/">https://open-food-facts.vercel.app/</a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Fotos
 
-### `yarn test`
+<img src="https://github.com/vbeloti/open-food-facts-web/blob/master/.github/open-food-facts-web-1.jpg?raw=true" alt="Open Food Facts Web" />
+<img src="https://github.com/vbeloti/open-food-facts-web/blob/master/.github/open-food-facts-web-2.jpg?raw=true" alt="Open Food Facts Web" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pré-requisitos
 
-### `yarn build`
+1º Para executar este projeto, você precisará ter um ambiente mínimo para executar um aplicativo React, que pode ser encontrado <a href="https://reactjs.org/docs/getting-started.html">aqui</a>.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2º Você precisará instalar e configurar a API <a href="https://github.com/vbeloti/open-food-facts-api">Open Food Facts API</a>, pois está aplicação irá consumir todos os dados provindos da API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3º Será necessário configurar a url base que será a url da api, para isso você deverár localizar o arquivo .env.example renomeá-lo para .env localizar o REACT_APP_BASE_URL e adicionar a url da api.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalando
 
-### `yarn eject`
+** Clonando o Repositório **
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+$ git clone https://github.com/vbeloti/open-food-facts-web
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+$ cd open-food-facts-web
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+** Instalando dependências **
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+$ yarn
 
-## Learn More
+_ou_
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+$ npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Executando a aplicação
+
+$ yarn start
+
+_ou_
+
+$ npm run start
+
+
+## Recursos
+
+| Recurso                    | Descrição                                                             |
+|:--------------             |:----------------------------------------------------------------------|
+| `/`                        | Lista todos os produtos                                               |
+
