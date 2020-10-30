@@ -4,7 +4,7 @@
     - [Resumo](#resumo)
     - [Link Demonstração](#link-demonstracao-api)
     - [Fotos](#demonstracao-em-fotos)
-    - [Pré Requisitos](#pre-requisitos)
+    - [Pré Requisitos](#pré-requisitos)
     - [Instalando](#instalando)
     - [Executando a aplicação](#executando-a-aplicacao)
     - [Recursos](#recursos)
